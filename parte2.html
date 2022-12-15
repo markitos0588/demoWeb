@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>JD España</title>
+        <link href="webmarcos.css" rel="stylesheet" type="text/css">
+    </head>
+    <body style="background-color:black">
+        <div>
+            <img class="banner" src="https://jdesblog.s3.amazonaws.com/wp-content/uploads/2020/02/jd-logo-profile.png">
+        </div>
+        <br>
+        <div align="right">
+            <a href="index.html">Inicio</a>
+            <a href="destacados.html">Destacados</a>
+            <a href="mapajd.html">Contacto e inico de sesión</a>
+        </div>
+        <br>
+        <div>
+            <form action="index.html" method="post">
+                <fieldset>
+                    <legend align="center">Datos de compra</legend>
+                    <p align="center">Seleccione su talla:
+                    <select name="talla">
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                        <option>41</option>
+                        <option>42</option>
+                        <option>43</option>
+                        <option>44</option>
+                        <option>45</option>
+                        <option>46</option>
+                    </select>
+                        <br>
+                        Nº de tarjeta: <input type="text">
+                        <br>
+                        Dirección de entrega: <input type="text">
+                        <br><br>
+                        <input type="reset" value="Comprar">
+                        <br>
+                    </p>
+                </fieldset>
+            </form>
+        </div>
+        <div align="center">
+            markitos
+            <br>
+            <script>
+                var f = new Date();
+                document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
+            </script>
+        </div>
+    </body>
+</html>
+
